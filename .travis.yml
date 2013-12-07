@@ -15,6 +15,7 @@ branches:
   only:
     - master
     - stable
+    - listen_2_2
 notifications:
   irc: {channels: "irc.freenode.org#sass"}
 matrix:
