@@ -15,6 +15,7 @@ branches:
   only:
     - master
     - stable
+    - rbx
 notifications:
   irc: {channels: "irc.freenode.org#sass"}
 matrix:
