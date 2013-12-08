@@ -23,7 +23,7 @@ SASS_GEMSPEC = Gem::Specification.new do |spec|
   spec.add_development_dependency 'yard', '>= 0.5.3'
   spec.add_development_dependency 'maruku', '>= 0.5.9'
 
-  if RUBY_ENGINE == 'rbx' then
+  if defined?(RUBY_ENGINE) and RUBY_ENGINE == 'rbx' then
     spec.add_development_dependency 'rubysl'
     spec.add_development_dependency 'test-unit'
   end
